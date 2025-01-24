@@ -1,25 +1,40 @@
 .header {
-  background-color: #282c34;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007BFF;
+  padding: 10px 20px;
   color: white;
-  text-align: center;
 }
 
-.header h1 {
-  font-size: 2.5em;
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
   margin: 0;
+  padding: 0;
 }
 
-.header nav {
-  margin-top: 10px;
-}
-
-.header nav a {
-  color: white;
-  text-decoration: none;
+.navigation ul li {
   margin: 0 15px;
 }
 
-.header nav a:hover {
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navigation ul li a:hover {
   text-decoration: underline;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }

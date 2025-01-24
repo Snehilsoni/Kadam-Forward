@@ -1,13 +1,18 @@
 import React from 'react';
+import '../App.css';
 
 const Home = () => {
   return (
-    <div className="home">
-      <header className="hero">
-        <h1>Welcome to Kadam Forward</h1>
-        <p>Towards a SMART career</p>
-        <button className="cta-button">Get Started</button>
-      </header>
+    <section className="home">
+      <div className="hero">
+        <h1>Unlock Your Future Today</h1>
+        <p>Discover your career path with us.</p>
+          <div className="cta-button">
+         <button>Get Started</button>
+         <button>Take a Test</button>
+         <button>Explore Careers</button>
+        </div>
+       </div>
       <section className="intro-video">
         <h2>Introduction</h2>
         <video controls>
@@ -15,11 +20,14 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </section>
-      <section className="call-to-action">
-        <h2>Explore Our Services</h2>
-        <button className="cta-button">Learn More</button>
+      <section class="quick-links">
+      
+      <div class="icon">Career Library</div>
+      <div class="icon">Psychometric Tests</div>
+      <div class="icon">Scholarships</div>
+      <div class="icon">Mentoring</div>
       </section>
-    </div>
+    </section>
   );
 };
 

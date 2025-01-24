@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App.css'
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <h3>Kadam Forward</h3>
+        
         <p>Contact us: info@kadamforward.com</p>
         <div className="footer-links">
           <a href="/faqs">FAQs</a>
