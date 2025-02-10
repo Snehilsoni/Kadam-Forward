@@ -4,22 +4,20 @@ import '../App.css';
 const Home = () => {
   return (
     <section className="home">
-      <div className="hero">
+       <div className="hero">
+        
         <h1>Unlock Your Future Today</h1>
-        <p>Discover your career path with us.</p>
-          <div className="cta-button">
+        <p>“At Kadam Forward, we are committed to guiding young minds toward informed and fulfilling career choices. Our mission is to bridge the gap between ambition and opportunity by providing comprehensive career guidance, personalized mentorship, scholarship opportunities, psychometric assessment, and more.Together, let's take confident strides toward a brighter future."</p>
+      
+          
+        <div className="cta-button">
          <button>Get Started</button>
          <button>Take a Test</button>
          <button>Explore Careers</button>
         </div>
-       </div>
-      <section className="intro-video">
-        <h2>Introduction</h2>
-        <video controls>
-          <source src="path/to/intro-video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </section>
+        
+      </div>
+      
       <section class="quick-links">
       
       <div class="icon">Career Library</div>
